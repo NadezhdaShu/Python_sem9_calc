@@ -1,8 +1,3 @@
-from oper import summ
-from oper import dif
-from oper import mult
-from oper import divis
-import data
 import oper
 from view import input_data, view_data
 
