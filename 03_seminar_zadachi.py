@@ -73,7 +73,6 @@ import time
 def current_milli_time():
     return round(time.time())
 
-#print(current_milli_time()%100)
 
 number = int(input('size'))
 tmp = 1
