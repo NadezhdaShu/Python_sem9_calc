@@ -1,13 +1,11 @@
 from data_enter import input_firstname
 from data_enter import input_lastname
-import string
-import secrets
+# import string
+# import secrets
 
 filename = "Tel_book.csv" 
 myfile = open(filename, "a+") 
 myfile.close
-
-
 
 
 def newcontact(): 
@@ -16,7 +14,9 @@ def newcontact():
     phoneNum = input("Введите номер телефона: ") 
     emailID = input("Введите ваш E-mail: ") 
     contactDetails =(f"" + firstname + " " + lastname + "  " + phoneNum + "  " + emailID +  "\n") 
-    myfile = open(filename, "a") 
-    myfile.write(contactDetails) 
+    # myfile = open(filename, "a") 
+    # myfile.write(contactDetails) 
+    with open('Tel_book.csv', 'a') as myfile:
+        myfile.write(contactDetails)
     print("Новая запись добавлена в телефонный справочник: \n " + contactDetails + "")  
  
