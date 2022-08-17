@@ -3,10 +3,10 @@ from view import input_data, view_data
 
 #метод нажатия на кнопку
 def button_click(): 
-    numberA = input_data('Введите число А: ')
+    numberA = int(input_data('Введите число А: '))
     #num_data = (int(input_data('Первое число ')), int(input_data('Второе число ')))
     znak = input_data('Укажите действие ')
-    numberB = input_data('Введите число B: ')
+    numberB = int(input_data('Введите число B: '))
     #data.init_data(*num_data)
     if znak == '+':
         print(oper.summ(numberA, numberB))
