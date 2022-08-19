@@ -1,14 +1,5 @@
 # Создать телефонный справочник с возможностью импорта и экспорта данных в нескольких форматах.
 
-# def get_data():
-#     surname = input('Фамилия: ')
-#     name = input('Имя: ')
-#     number = input('Номер телефона: ')
-#     description = input('Описание: ')
-#     list = [surname, name, number, description]
-#     return list
-
-# #print(get_data())
 
 #имя
 def input_firstname(): 
